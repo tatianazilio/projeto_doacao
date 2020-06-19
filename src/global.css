@@ -1,5 +1,9 @@
 .App {
-    background-color: aliceblue;
+    display: block;
+}
+
+.main {
     padding: 1%;
-    padding-bottom: 0%;
+    display: flex;
+    justify-content: space-around;
 }

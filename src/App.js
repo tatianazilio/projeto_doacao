@@ -1,21 +1,8 @@
 import React from 'react';
-import Header from './components/header'
-import Footer from './components/footer'
-import Card from './components/card';
+import Routes from './Routes';
 
 import './global.css'
 
-function App() {
-  const listaDeCards = [<Card />, <Card />, <Card />, <Card />]
-  return (
-    <div className="App">
-      <Header />
-      <main className="container d-flex">
-        {listaDeCards}
-      </main>
-      <Footer />
-    </div>
-  );
+export default function App() {
+  return <Routes />;
 }
-
-export default App;
